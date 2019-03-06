@@ -1,0 +1,71 @@
+body{
+	background-color:#000000;
+}
+.contenedor{
+	margin: auto;
+	margin-top:20px;
+	width:700px;
+	background-color:#dfdfdf;
+}
+.foto{
+	border-radius:10px;
+	box-shadow:2px 2px 3px #808080;
+	width:170px;
+	height:170px;
+	position:absolute;
+	margin-left:520px;
+	margin-top:100px;
+	background-color:red;
+	background-image:url(imagen/moios1.jpg);
+	background-size:auto 100%;
+	transition:300ms;
+}
+.foto:hover{
+	background-image:url(imagen/moios2.jpg);
+}
+
+header, h1{
+	background-color:#808080;
+	text-align:center;
+	font-family:Arial;
+	font-size:28pt;
+	color:#1259ae;
+}
+h2{
+	font-family:Arial;
+	font-size:18pt;
+	color:#505050;
+	border-bottom:solid 2px #ae2563;	
+}
+*, p{
+	font-family:Century Gothic, Arial;
+	font-size:14pt;
+	color:#121212;
+}
+.tabla{
+	width:680px;
+	margin-left:10px;
+	background-color:#ccccff;
+}
+th{
+	background-color:#121212;
+	color:#dfdfdf;
+}
+.fila{
+	transition:300ms;
+}
+.fila:hover{
+	background-color:#dfffff;
+	transform:scale(1.1);
+	 
+}
+.columna{
+	width:33%;
+}
+.columna50{
+	width:50%;
+}
+.resaltado{
+	color:#ff3030;
+	font-weight:bold;
+}
